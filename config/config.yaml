@@ -1,0 +1,28 @@
+seed: 42
+alpha: 1.0
+lambda_min: 0.3
+lambda_max: 1.0
+n_lambda: 301
+tau_list: [1,2,3,4,5]
+omega_anchors: [0.35, 0.60]
+omega_full: [0.20,0.26,0.32,0.35,0.41,0.48,0.60,0.67,0.74,0.80]
+n_fit_points: 25
+sigma0_ref_ratio: 0.62
+a2_ref_ratio: 2.4658
+bootstrap_n: 3000
+jackknife_d: 3
+bootstrap_jobs: 6
+fit_n_starts: 24
+fit_reg_lambda: 1e-6
+ode_t_max: 12.0
+ode_atol: 1e-8
+ode_rtol: 1e-6
+tolerance_consistency: 1e-4
+paths:
+  cache: "../output/cache"
+  csv: "../output/csv"
+  fig_main: "../output/figs/main"
+  fig_supp: "../output/figs/supplement"
+  log: "../output/logs"
+  report: "../output/reports"
+  latex: "../output/latex_tables"

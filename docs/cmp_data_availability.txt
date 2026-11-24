@@ -1,0 +1,2 @@
+Data availability statement for CMP:
+All raw numerical data, simulation code, fitting routines, resampling scripts and plotting code required to reproduce the figures, tables and quantitative claims in the manuscript are included in this repository.
